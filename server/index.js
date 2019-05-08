@@ -39,8 +39,8 @@ app.get('/sql', function (req, res) {
     var config = {
         server: "dceserve.database.windows.net", // Use your SQL server name
         database: "BD_DCE", // Database to connect to
-        user: "dcubides@dceserve", // Use your username
-        password: 'Omegaboston40', // Use your password
+        user: "", // Use your username
+        password: '', // Use your password
         port: 1433,
         // Since we're on Windows Azure, we need to set the following options
         options: {
